@@ -1,0 +1,6 @@
+as.character(8.7)
+as.character(87L)
+as.character(TRUE)
+as.character(FALSE)
+as.character(Sys.Date())
+as.character(Sys.time())

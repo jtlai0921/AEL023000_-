@@ -1,0 +1,18 @@
+team_name <- "Chicago Bulls"
+season <- "1995-1996"
+wins_losses <- c(72, 10)
+starting_lineup <- c("Ron Harper", "Michael Jordan", "Scottie Pippen", "Dennis Rodman", "Luc Longley")
+is_champion <- TRUE
+chicago_bulls <- list(
+  team_name,
+  season,
+  wins_losses,
+  starting_lineup,
+  is_champion
+)
+class(chicago_bulls)
+class(chicago_bulls[[1]])
+class(chicago_bulls[[2]])
+class(chicago_bulls[[3]])
+class(chicago_bulls[[4]])
+class(chicago_bulls[[5]])

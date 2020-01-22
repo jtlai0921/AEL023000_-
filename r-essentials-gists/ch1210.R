@@ -1,0 +1,17 @@
+# install.packages("dplyr")
+library(dplyr)
+
+teams <- c("Chicago Bulls", "Chicago Bulls")
+game_results <- c("win", "loss")
+games <- c(72, 10)
+bulls <- data.frame(team = teams, game_result = game_results, game = games, stringsAsFactors = FALSE)
+teams <- c("Golden State Warriors", "Golden State Warriors")
+game_results <- c("win", "loss")
+games <- c(73, 9)
+warriors <- data.frame(team = teams, game_result = game_results, game = games, stringsAsFactors = FALSE)
+# upper dataframe
+bulls
+# lower dataframe
+warriors
+# dataframe after bind_rows
+bind_rows(bulls, warriors)

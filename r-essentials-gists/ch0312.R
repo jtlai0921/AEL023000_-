@@ -1,0 +1,5 @@
+as.numeric(87L)
+as.numeric(TRUE)
+as.numeric(FALSE)
+as.numeric(Sys.Date())
+as.numeric(Sys.time())

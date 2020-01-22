@@ -1,0 +1,1 @@
+curve(sin, from = -pi, to = pi)

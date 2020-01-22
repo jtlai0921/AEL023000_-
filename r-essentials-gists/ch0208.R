@@ -1,0 +1,5 @@
+rep(7, times = 8)
+rep("R", times = 5)
+rep(TRUE, times = 5)
+rep(Sys.Date(), times = 2)
+rep(Sys.time(), times = 2)

@@ -1,0 +1,5 @@
+as.integer(87)
+as.integer(TRUE)
+as.integer(FALSE)
+as.integer(Sys.Date())
+as.integer(Sys.time())

@@ -1,0 +1,5 @@
+starwars <- c("Luke Skywalker", "Princess Leia Organa", "Anakin Skywalker", "Darth Vader")
+grep(starwars, pattern = "Skywalker")
+grep(starwars, pattern = "Leia")
+grep(starwars, pattern = "Vader")
+grep(starwars, pattern = "Yoda")

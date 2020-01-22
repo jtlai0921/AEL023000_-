@@ -1,0 +1,6 @@
+as.logical("TRUE")
+as.logical("True")
+as.logical("true")
+as.logical("FALSE")
+as.logical("False")
+as.logical("false")

@@ -1,0 +1,5 @@
+as.logical(0)
+as.logical(0L)
+as.logical(1L)
+as.logical(-8.7)
+as.logical(87)
